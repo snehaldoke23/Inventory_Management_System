@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5E8EC">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:text="ID = "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="88dp"
+        android:text="UserID"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView1"
+        app:layout_constraintLeft_toRightOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Name = "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textViewNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintLeft_toRightOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Price = "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textViewPHONE_NUMBER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:text="price "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintLeft_toRightOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Quantity = "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textViewQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="quantity "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintLeft_toRightOf="@+id/textView4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
